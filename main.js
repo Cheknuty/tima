@@ -10,8 +10,8 @@ function givePrompt() {
 
         if (currentEmail.length == 0) {
             input.value = null
-            input.value =  `${str.join("")}@gmail.com`;
-            console.log(`${str.join("")}@gmail.com`);
+            // input.value =  `${str.join("")}@gmail.com`;
+            // console.log(`${str.join("")}@gmail.com`);
             // input.focus();
             // input.setSelectionRange(value.length, input.value.length);
             alert("+_+_+_+_" + input.value);
