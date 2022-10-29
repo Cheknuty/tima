@@ -2,10 +2,8 @@ function givePrompt() {
     var input = document.getElementById('ClientEmail');
     var value = input.value;
     const arr = value.split("").filter(letter => letter === "@")
-    const str = input.value.split('@');
-    console.log(str);
-    input.value = null
     if (value.includes("@") && arr.length === 1) {
+        const str = input.value.split('@');
         alert(value);
         var currentEmail = input.value.split('@').pop();
         input.value = null
