@@ -7,10 +7,10 @@ function givePrompt() {
     if (value.includes("@") && arr.length === 1) {
         alert(value);
         var currentEmail = input.value.split('@').pop();
+        input.value = null
 
         if (currentEmail.length == 0) {
-            input.value = null
-            input.value =  `xikmat`;
+            input.value =  `${str.join("")}@gmail.com`;
             // console.log(`${str.join("")}@gmail.com`);
             // input.focus();
             // input.setSelectionRange(value.length, input.value.length);
