@@ -9,6 +9,7 @@ function givePrompt() {
         var currentEmail = input.value.split('@').pop();
 
         if (currentEmail.length == 0) {
+            input.value = ""
             input.value =  `${str.join("")}@gmail.com`;
             // input.focus();
             // input.setSelectionRange(value.length, input.value.length);
